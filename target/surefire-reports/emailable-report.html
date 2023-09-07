@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TNPSuite</th></tr>
+<tr><td><a href="#t0">TNPTests</a></td><td class="num">10</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">301,840</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TNPSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TNPTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tnp.qa.testcases.LoginTest</td><td><a href="#m0">LoginwithoutCredentials</a></td><td rowspan="1">1694095164829</td><td rowspan="1">2462</td></tr><tr class="failedodd"><td rowspan="1">com.tnp.qa.testcases.RegisterTest</td><td><a href="#m1">verifyAccountByProvidingdifferntPassword</a></td><td rowspan="1">1694095008932</td><td rowspan="1">4671</td></tr><tr class="failedeven"><td rowspan="1">com.tnp.qa.testcases.SearchTest</td><td><a href="#m2">verifySearchwithInValidProduct</a></td><td rowspan="1">1694095204932</td><td rowspan="1">679</td></tr><tr><th colspan="4">TNPTests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.tnp.qa.testcases.SearchTest</td><td><a href="#m3">verifySearchwithNoProduct</a></td><td rowspan="1">1694095206079</td><td rowspan="1">0</td></tr><tr><th colspan="4">TNPTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.tnp.qa.testcases.LoginTest</td><td><a href="#m4">LoginwithInValidCredentials</a></td><td rowspan="1">1694095099487</td><td rowspan="1">4902</td></tr><tr class="passedeven"><td><a href="#m5">LoginwithInValidEmailAndValidPassword</a></td><td rowspan="1">1694095121344</td><td rowspan="1">4860</td></tr><tr class="passedeven"><td><a href="#m6">LoginwithValidCredentials</a></td><td rowspan="3">1694095031446</td><td rowspan="3">6022</td></tr><tr class="passedeven"><td><a href="#m7">LoginwithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m8">LoginwithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m9">LoginwithValidEmailAndInValidPassword</a></td><td rowspan="1">1694095143271</td><td rowspan="1">4678</td></tr><tr class="passedodd"><td rowspan="3">com.tnp.qa.testcases.RegisterTest</td><td><a href="#m10">verifyAccountwithAlreadyRegisteredAccount</a></td><td rowspan="1">1694094957850</td><td rowspan="1">6317</td></tr><tr class="passedodd"><td><a href="#m11">verifyAccountwithNotProvidingAnyValues</a></td><td rowspan="1">1694094983668</td><td rowspan="1">5599</td></tr><tr class="passedodd"><td><a href="#m12">verifyRegisteringAccountwithMandatoryFields</a></td><td rowspan="1">1694094929839</td><td rowspan="1">8192</td></tr><tr class="passedeven"><td rowspan="1">com.tnp.qa.testcases.SearchTest</td><td><a href="#m13">verifySearchwithValidProduct</a></td><td rowspan="1">1694095185805</td><td rowspan="1">604</td></tr></tbody>
+</table>
+<h2>TNPTests</h2><h3 id="m0">com.tnp.qa.testcases.LoginTest#LoginwithoutCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected Warning Message is not displayed expected [true] but found [false]
+	at com.tnp.qa.testcases.LoginTest.LoginwithoutCredentials(LoginTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tnp.qa.testcases.RegisterTest#verifyAccountByProvidingdifferntPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Password Confirm Warning message is not Displayed expected [true] but found [false]
+	at com.tnp.qa.testcases.RegisterTest.verifyAccountByProvidingdifferntPassword(RegisterTest.java:119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tnp.qa.testcases.SearchTest#verifySearchwithInValidProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: No Product Found Text is not Displayed expected [true] but found [false]
+	at com.tnp.qa.testcases.SearchTest.verifySearchwithInValidProduct(SearchTest.java:47)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tnp.qa.testcases.SearchTest#verifySearchwithNoProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method com.tnp.qa.testcases.SearchTest.verifySearchwithNoProduct() on instance com.tnp.qa.testcases.SearchTest@436813f3 depends on not successfully finished methods 
+[com.tnp.qa.testcases.SearchTest.verifySearchwithInValidProduct() on instance com.tnp.qa.testcases.SearchTest@436813f3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tnp.qa.testcases.LoginTest#LoginwithInValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tnp.qa.testcases.LoginTest#LoginwithInValidEmailAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tnp.qa.testcases.LoginTest#LoginwithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>asthakare@gmail.com</td><td>Akash@6543</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tnp.qa.testcases.LoginTest#LoginwithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>asthakare01@gmail.com</td><td>1234567</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.tnp.qa.testcases.LoginTest#LoginwithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>asthakare02@gmail.com</td><td>1234567</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.tnp.qa.testcases.LoginTest#LoginwithValidEmailAndInValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.tnp.qa.testcases.RegisterTest#verifyAccountwithAlreadyRegisteredAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.tnp.qa.testcases.RegisterTest#verifyAccountwithNotProvidingAnyValues</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.tnp.qa.testcases.RegisterTest#verifyRegisteringAccountwithMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.tnp.qa.testcases.SearchTest#verifySearchwithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

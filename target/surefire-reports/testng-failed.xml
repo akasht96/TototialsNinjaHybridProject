@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TNPSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.tnp.qa.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="TNPTests(failed)" verbose="0">
+    <classes>
+      <class name="com.tnp.qa.testcases.SearchTest">
+        <methods>
+          <include name="verifySearchwithNoProduct"/>
+          <include name="teardown"/>
+          <include name="verifySearchwithInValidProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tnp.qa.testcases.SearchTest -->
+      <class name="com.tnp.qa.testcases.RegisterTest">
+        <methods>
+          <include name="verifyAccountByProvidingdifferntPassword"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tnp.qa.testcases.RegisterTest -->
+      <class name="com.tnp.qa.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="LoginwithoutCredentials"/>
+        </methods>
+      </class> <!-- com.tnp.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- TNPTests(failed) -->
+</suite> <!-- Failed suite [TNPSuite] -->
