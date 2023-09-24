@@ -10,6 +10,7 @@ import com.tnp.qa.base.Base;
 import com.tnp.qa.pages.HomePage;
 import com.tnp.qa.pages.SearchPage;
 
+//adding a comment here - added more details 
 @Test
 public class SearchTest extends Base {
 
